@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form thông tin</title>
+</head>
+<body>
+    <form action ="/form" method ="get">
+        <label for ="Họ và tên">Họ và tên:</label>
+        <input id ="Họ và tên" name ="Họ và tên" type ="text"><br><br>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email"><br><br>
+        <label for="ngaysinh">Ngày sinh:</label>
+        <input id="ngaysinh" name="ngaysinh" type="date"><br><br>
+        <label>Giới tính:</label>
+        <input type="radio" id="nam" name="gioitinh" value="nam">
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="gioitinh" value="nu">
+        <label for="nu">Nữ</label><br><br>
+        <label for="sdt">Số điện thoại:</label>
+        <input id="sdt" name="sdt" type="text"><br><br>
+        <label for="nganh">Chuyên ngành:</label>
+        <input id="nganh" name="nganh" type="text"><br><br>
+        <label for="namhoc">Năm nhập học:</label>
+        <input id="namhoc" name="namhoc" type="text"><br><br>
+        <label for="gpa">Điểm GPA:</label>
+        <input id="gpa" name="gpa" type="text"><br><br>
+        <label for="diachi">Địa chỉ:</label>
+        <textarea id="diachi" name="diachi"></textarea><br><br>
+        <label for="lop">Lớp học:</label>
+        <select id="lop" name="lop">
+            <option value="1">Lớp 1</option>
+            <option value="2">Lớp 2</option>
+        </select><br><br>
+        <label for="ngaydangky">Ngày đăng ký học:</label>
+        <input id="ngaydangky" name="ngaydangky" type="datetime-local"><br><br>
+        <input type="submit" value="Gửi thông tin">
+    </form>
+</body>
+</html>
